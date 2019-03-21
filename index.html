@@ -1,98 +1,116 @@
 <!DOCTYPE html>
 <html>
-<head>
- <title>AhSean</title>
-	<style type="text/css">
-	.button {
-         display: inline-block;
-         text-align: center;
-         vertical-align: middle;
-         padding: 16px 35px;
-         border: 1px solid #00b395;
-         border-radius: 8px;
-         background: #00fff5;
-         background: -webkit-gradient(linear, left top, left bottom, from(#00fff5), to(#00b395));
-         background: -moz-linear-gradient(top, #00fff5, #00b395);
-         background: linear-gradient(to bottom, #00fff5, #00b395);
-         text-shadow: #00806b 10px 7px 2px;
-         font: italic normal bold 5px tahoma;
-         color: #ffffff;
-         text-decoration: none;
-    }
-    .button:hover,
-    .button:focus {
+  <head>
+    <title>AhSean</title>
+    <style type="text/css">
+      .button {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        padding: 16px 35px;
+        border: 1px solid #00b395;
+        border-radius: 8px;
+        background: #00fff5;
+        background: -webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          from(#00fff5),
+          to(#00b395)
+        );
+        background: -moz-linear-gradient(top, #00fff5, #00b395);
+        background: linear-gradient(to bottom, #00fff5, #00b395);
+        text-shadow: #00806b 10px 7px 2px;
+        font: italic normal bold 5px tahoma;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .button:hover,
+      .button:focus {
         border: 1px solid #00ffd5;
         background: #00ffff;
-        background: -webkit-gradient(linear, left top, left bottom, from(#00ffff), to(#00d7b3));
+        background: -webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          from(#00ffff),
+          to(#00d7b3)
+        );
         background: -moz-linear-gradient(top, #00ffff, #00d7b3);
         background: linear-gradient(to bottom, #00ffff, #00d7b3);
         color: #ffffff;
         text-decoration: none;
-    }
-    .button:active {
+      }
+      .button:active {
         background: #00b395;
-        background: -webkit-gradient(linear, left top, left bottom, from(#00b395), to(#00b395));
+        background: -webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          from(#00b395),
+          to(#00b395)
+        );
         background: -moz-linear-gradient(top, #00b395, #00b395);
         background: linear-gradient(to bottom, #00b395, #00b395);
-    }
-	.bar{
-		background-color:paleturquoise;
-		color:white;
-		font-weight:bold;
-		font-size:30px;
-		text-align:center;
-		padding:10px}
-	.content{
-	    width: 1000px;
-	    margin-left:auto;
-	    margin-right: auto;
-    }
-    .box{
-	    width: 280px;
-	    padding:10px;
-	    margin:10px;
-	    background-color: white;
-	    display: inline-block;
-	    vertical-align: top;
-	}
-	.right{
-		position: absolute;
-		right:0px
-	}
-	.right1{
-		position: absolute;
-		right:50px
-	}
-    .right2{
-		position: absolute;
-		right:100px
-	}
-	.right3{
-		position: absolute;
-		right:150px
-	}
-	.right4{
-		position: absolute;
-		right:200px
-	}
-	.right5{
-		position: absolute;
-		right:250px
-	}
-	
-	</style>
-</head>
-<body style="margin:0px;text-align:center;background-color:#eeeeee">
-	<div class="bar">AhSean
-		<a  href="/about">
-			<button tpye="button" class="right2">關於</button></a>
-		<a  href="/links">
-			<button tpye="button" class="right1">連結</button></a>
-		<a  href="/skills">
-			<button tpye="button" class="right">技能</button></a>
-	</div>
-
-
-
-</body>
+      }
+      .bar {
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+      }
+      .content {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .box {
+        width: 280px;
+        padding: 10px;
+        margin: 10px;
+        background-color: white;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .right {
+        position: absolute;
+        right: 0px;
+      }
+      .right1 {
+        position: absolute;
+        right: 50px;
+      }
+      .right2 {
+        position: absolute;
+        right: 100px;
+      }
+      .right3 {
+        position: absolute;
+        right: 150px;
+      }
+      .right4 {
+        position: absolute;
+        right: 200px;
+      }
+      .right5 {
+        position: absolute;
+        right: 250px;
+      }
+      .BG {
+        background: url(/WALLPAPER.jpg);
+        background-repeat: repeat;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body class="BG" style="margin:0px;text-align:center">
+    <div class="bar">
+      AhSean
+      <a href="/about"> <button tpye="button" class="right2">關於</button></a>
+      <a href="/links"> <button tpye="button" class="right1">連結</button></a>
+      <a href="/skills"> <button tpye="button" class="right">技能</button></a>
+    </div>
+  </body>
 </html>
