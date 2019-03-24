@@ -2,56 +2,59 @@
 <html>
   <head>
     <title>AhSean</title>
+    <script>
+      alert("網頁還在加工中,敬請期待!!")
+    </script>  
     <style type="text/css">
       .button {
         display: inline-block;
         text-align: center;
         vertical-align: middle;
-        padding: 16px 35px;
-        border: 1px solid #00b395;
-        border-radius: 8px;
-        background: #00fff5;
+        padding: 16px 50px;
+        border: 1px solid #e7f8f5;
+        border-radius: 15px;
+        background: gray;
         background: -webkit-gradient(
           linear,
           left top,
           left bottom,
-          from(#00fff5),
-          to(#00b395)
+          from(black),
+          to(gray)
         );
-        background: -moz-linear-gradient(top, #00fff5, #00b395);
-        background: linear-gradient(to bottom, #00fff5, #00b395);
-        text-shadow: #00806b 10px 7px 2px;
+        background: -moz-linear-gradient(top, #000000, gray);
+        background: linear-gradient(to bottom, #000000, gray);
+        text-shadow: #000000 10px 7px 2px;
         font: italic normal bold 5px tahoma;
         color: #ffffff;
         text-decoration: none;
       }
       .button:hover,
       .button:focus {
-        border: 1px solid #00ffd5;
-        background: #00ffff;
+        border: 1px solid #000000;
+        background: #000000;
         background: -webkit-gradient(
           linear,
           left top,
           left bottom,
-          from(#00ffff),
-          to(#00d7b3)
+          from(#000000),
+          to(gray)
         );
-        background: -moz-linear-gradient(top, #00ffff, #00d7b3);
-        background: linear-gradient(to bottom, #00ffff, #00d7b3);
-        color: #ffffff;
+        background: -moz-linear-gradient(top, #000000, gray);
+        background: linear-gradient(to bottom, #000000, gray);
+        color: #000000;
         text-decoration: none;
       }
       .button:active {
-        background: #00b395;
+        background: #000000;
         background: -webkit-gradient(
           linear,
           left top,
           left bottom,
-          from(#00b395),
-          to(#00b395)
+          from(#000000),
+          to(gray)
         );
-        background: -moz-linear-gradient(top, #00b395, #00b395);
-        background: linear-gradient(to bottom, #00b395, #00b395);
+        background: -moz-linear-gradient(top, #000000, gray);
+        background: linear-gradient(to bottom, #000000, gray);
       }
       .bar {
         background-color: gray;
@@ -108,9 +111,11 @@
   <body class="BG" style="margin:0px;text-align:center">
     <div class="bar">
       AhSean
-      <a href="/about"> <button tpye="button" class="right2">關於</button></a>
-      <a href="/links"> <button tpye="button" class="right1">連結</button></a>
-      <a href="/skills"> <button tpye="button" class="right">技能</button></a>
     </div>
+    
+    <a href="/links"> <a class="button" href="/links" style="font-size: 15px">連結</a><br>
+    <br>
+    <a href="/skills"> <a class="button" href="/skills" style="font-size: 15px">技能</a>
+  <hr/>
   </body>
 </html>
